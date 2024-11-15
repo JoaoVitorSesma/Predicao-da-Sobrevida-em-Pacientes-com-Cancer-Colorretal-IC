@@ -7,7 +7,7 @@ Este projeto explora a análise de sobrevivência com foco em dados de saúde. U
 ## Estrutura do Projeto
 O projeto é composto por dois notebooks principais:
 
-### 1. Notebook de Análise e Ajuste do Modelo de Sobrevivência
+### 1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX
 Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dados da FOSP, para poder fazer a predição sobrevivência. Sendo assim, o código foi estruturado da seguinte maneira:
 
 #### Importação e Pré-Processamento dos Dados: Preparação dos dados, incluindo limpeza e codificação de variáveis categóricas.
