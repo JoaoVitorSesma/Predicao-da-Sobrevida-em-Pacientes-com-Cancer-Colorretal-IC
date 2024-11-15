@@ -1,5 +1,7 @@
 **Predição de Sobrevida em Pacientes com Câncer Colorretal com Dados da FOSP**
-  Descrição do Projeto
+
+  Descrição do Projeto:
+  
 Este projeto explora a análise de sobrevivência com foco em dados de saúde. Utilizando técnicas de regressão de Cox e curvas de Kaplan-Meier, o objetivo é prever e interpretar tempos de sobrevida em pacientes, proporcionando insights sobre fatores de risco e probabilidade de sobrevivência ao longo do tempo.
 
 Estrutura do Projeto
