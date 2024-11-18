@@ -33,8 +33,9 @@ Esses gráficos fornecem uma visão intuitiva e ajudam a validar os resultados d
 Nesse outro notebook foi feita a implementação do modelo de COX que serviu como um modelo experimental, antes de ser feita a análise definitiva para o Banco de Dados da FOSP. Sendo um notebook instrutivo de como o modelo foi aplicado, além de outros diversos ensinamentos.
 
 ## Artigos de Referência:
-XU, L. et al. Comparison of the cox regression to machine learning in predicting the survival of anaplastic thyroid carcinoma. BMC Endocrine Disorders, v. 23, n. 1, 5 jun. 2023.
-SHAYESTE ALINIA et al. Survival prediction and prognostic factors in colorectal cancer after curative surgery: insights from cox regression and neural networks. Scientific Reports, v. 13, n. 1, 21 set. 2023.
+1. XU, L. et al. Comparison of the cox regression to machine learning in predicting the survival of anaplastic thyroid carcinoma. BMC Endocrine Disorders, v. 23, n. 1, 5 jun. 2023.
+
+2. SHAYESTE ALINIA et al. Survival prediction and prognostic factors in colorectal cancer after curative surgery: insights from cox regression and neural networks. Scientific Reports, v. 13, n. 1, 21 set. 2023.
 
 ‌
 
