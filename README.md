@@ -26,7 +26,42 @@ Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dad
 Esses gráficos fornecem uma visão intuitiva e ajudam a validar os resultados do modelo, permitindo identificar possíveis melhorias ou ajustes.
 
 ### [2. Banco de Dados (Lifelines)](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/Banco_de_Dados_(Lifelines).ipynb)
-Nesse outro notebook foi feita a implementação do modelo de COX que serviu como um modelo experimental, antes de ser feita a análise definitiva para o Banco de Dados da FOSP. Sendo um notebook instrutivo de como o modelo foi aplicado, além de outros diversos ensinamentos.
+Nesse outro notebook foi feita a implementação do modelo de COX que serviu como um modelo experimental, antes de ser feita a análise definitiva para o Banco de Dados da FOSP. Sendo um notebook instrutivo de como o modelo foi aplicado, além de outros diversos ensinamentos. Esse notebook está dividido nas seguintes partes:
+
+#### Importação e Processamento de Dados:
+
+- Uso do conjunto de dados load_breast_cancer, contendo 198 amostras e 82 variáveis.
+- Pré-processamento com OneHotEncoder para codificação de variáveis categóricas.
+
+#### Criação de colunas auxiliares:
+- days: Representa o tempo de sobrevivência em dias.
+- event: Indica se o evento de interesse (morte) ocorreu.
+
+#### Ajuste do Modelo de Cox:
+- Ajuste do modelo utilizando o CoxPHFitter da biblioteca Lifelines.
+- Análise do sumário estatístico com métricas como coeficientes, hazard ratios e valores-p.
+
+#### Análise de Métricas:
+
+- Cálculo do Índice de Concordância (C-Index) para avaliar a precisão das predições.
+- Comparação de modelos com variáveis significativas e completas.
+- Avaliação de métricas como MSE, RMSE, MAE, MAPE, e R2.
+
+#### Visualizações:
+Geração de curvas de sobrevivência utilizando:
+- Estimador Kaplan-Meier.
+- Funções de sobrevivência ajustadas com o modelo de Cox.
+- Comparação gráfica entre os tempos de sobrevivência reais e previstos.
+- Gráficos de dispersão, histogramas e boxplots para análise de hazard ratios.
+
+#### Predições e Comparações:
+- Previsão da função de sobrevivência com predict_survival_function.
+- Estimativa do tempo médio de sobrevivência com predict_expectation.
+- Análise do impacto das variáveis significativas no tempo de sobrevivência.
+
+#### Interpretação dos Hazard Ratios:
+- Identificação de grupos de risco com base nos hazard ratios.
+- Visualização da função de risco cumulativo usando o estimador Nelson-Aalen.
 
 ### [3. FOSP_curvas_Kaplan-Meier](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/FOSP_curvas_Kaplan_Meier.ipynb)
 Neste notebook, foram implementados processos para gerar curvas de sobrevivência Kaplan-Meier utilizando a base de dados da FOSP (Fundação Oncocentro de São Paulo). O objetivo foi analisar diferentes tipos de câncer com base nos códigos topográficos padronizados e realizar uma visualização da probabilidade de sobrevivência ao longo do tempo.
