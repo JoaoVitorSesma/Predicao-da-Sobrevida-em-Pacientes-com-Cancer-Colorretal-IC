@@ -7,7 +7,7 @@ Este projeto explora a análise de sobrevivência com foco em dados de saúde. U
 ## Estrutura do Projeto
 O projeto é composto por dois notebooks principais:
 
-### 1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX
+### [1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/Predi%C3%A7%C3%A3o_da_Sobrevida_em_Pacientes_com_C%C3%A2ncer_Colorretal_COX.ipynb)
 Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dados da FOSP, para poder fazer a predição sobrevivência. Sendo assim, o código foi estruturado da seguinte maneira:
 
 #### Importação e Pré-Processamento dos Dados: Preparação dos dados, incluindo limpeza e codificação de variáveis categóricas.
@@ -24,8 +24,6 @@ Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dad
 - Curva de Sobrevivência Kaplan-Meier, representando a probabilidade de sobrevivência ao longo do tempo.
 - Histograma da distribuição dos tempos de sobrevivência ao longo dos 60 meses.
 Esses gráficos fornecem uma visão intuitiva e ajudam a validar os resultados do modelo, permitindo identificar possíveis melhorias ou ajustes.
-
-- [1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/Predi%C3%A7%C3%A3o_da_Sobrevida_em_Pacientes_com_C%C3%A2ncer_Colorretal_COX.ipynb)
 
 ### 2. Banco de Dados (Lifelines)
 Nesse outro notebook foi feita a implementação do modelo de COX que serviu como um modelo experimental, antes de ser feita a análise definitiva para o Banco de Dados da FOSP. Sendo um notebook instrutivo de como o modelo foi aplicado, além de outros diversos ensinamentos.
