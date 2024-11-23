@@ -32,6 +32,7 @@ Nesse outro notebook foi feita a implementação do modelo de COX que serviu com
 Neste notebook, foram implementados processos para gerar curvas de sobrevivência Kaplan-Meier utilizando a base de dados da FOSP (Fundação Oncocentro de São Paulo). O objetivo foi analisar diferentes tipos de câncer com base nos códigos topográficos padronizados e realizar uma visualização da probabilidade de sobrevivência ao longo do tempo.
 
 **Principais etapas do código:**
+
 ####Importação e Preparação dos Dados:
 - Utilização do banco de dados atualizado em dezembro de 2023, contendo informações detalhadas sobre diferentes tipos de câncer.
 - Criação de uma tabela auxiliar que mapeia os tipos de câncer e seus respectivos códigos.
