@@ -41,16 +41,18 @@ Neste notebook, foram implementados processos para gerar curvas de sobrevivênci
 - **Seleção de dados:** Filtragem dos casos de acordo com critérios específicos, como topografia, estado de residência (SP), confirmação microscópica, morfologia específica, e diagnósticos realizados até 2019.
 - **Ajustes para Kaplan-Meier:** Conversão das colunas de tempo de diagnóstico em meses, eliminação de casos inválidos e criação de variáveis binárias para eventos de óbito.
 
-#### Geração das Curvas Kaplan-Meier:
-Visualização por tipo de câncer, com indicadores como mediana de sobrevivência, número de amostras e período analisado.
+#### Geração e Visualização das Curvas Kaplan-Meier:
+- Visualização por tipo de câncer, com indicadores como mediana de sobrevivência, número de amostras e período analisado.
+- Salvamento das curvas em arquivos PNG e exibição conjunta em um painel de imagens para facilitar a análise comparativa.
 
-#### Visualização das Curvas:
-Salvamento das curvas em arquivos PNG e exibição conjunta em um painel de imagens para facilitar a análise comparativa.
+## Bibliografias:
 
-## Artigos de Referência:
-1. XU, L. et al. Comparison of the cox regression to machine learning in predicting the survival of anaplastic thyroid carcinoma. BMC Endocrine Disorders, v. 23, n. 1, 5 jun. 2023.
+As principais bibliografias estão a baixo, além de outros diversos artigos que também foram referência para o estudo
+1. [XU, L. et al. Comparison of the cox regression to machine learning in predicting the survival of anaplastic thyroid carcinoma. BMC Endocrine Disorders, v. 23, n. 1, 5 jun. 2023.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10249166/)
 
-2. SHAYESTE ALINIA et al. Survival prediction and prognostic factors in colorectal cancer after curative surgery: insights from cox regression and neural networks. Scientific Reports, v. 13, n. 1, 21 set. 2023.
+2. [SHAYESTE ALINIA et al. Survival prediction and prognostic factors in colorectal cancer after curative surgery: insights from cox regression and neural networks. Scientific Reports, v. 13, n. 1, 21 set. 2023.](https://www.nature.com/articles/s41598-023-42926-0)
+
+3. [Pesquisas_IC](https://github.com/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/PESQUISAS%20IC.pdf)
 
 ‌
 
