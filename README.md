@@ -25,9 +25,7 @@ Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dad
 - Histograma da distribuição dos tempos de sobrevivência ao longo dos 60 meses.
 Esses gráficos fornecem uma visão intuitiva e ajudam a validar os resultados do modelo, permitindo identificar possíveis melhorias ou ajustes.
 
-<br>
-
-- [Notebook de predição](https://colab.research.google.com/github/JoaoVitorSesma/GitHub/blob/main/Predi%C3%A7%C3%A3o_da_Sobrevida_em_Pacientes_com_C%C3%A2ncer_Colorretal_COX.ipynb)
+- [1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/Predi%C3%A7%C3%A3o_da_Sobrevida_em_Pacientes_com_C%C3%A2ncer_Colorretal_COX.ipynb)
 
 ### 2. Banco de Dados (Lifelines)
 Nesse outro notebook foi feita a implementação do modelo de COX que serviu como um modelo experimental, antes de ser feita a análise definitiva para o Banco de Dados da FOSP. Sendo um notebook instrutivo de como o modelo foi aplicado, além de outros diversos ensinamentos.
