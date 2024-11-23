@@ -33,18 +33,18 @@ Neste notebook, foram implementados processos para gerar curvas de sobrevivênci
 
 **Principais etapas do código:**
 
-####Importação e Preparação dos Dados:
+#### Importação e Preparação dos Dados:
 - Utilização do banco de dados atualizado em dezembro de 2023, contendo informações detalhadas sobre diferentes tipos de câncer.
 - Criação de uma tabela auxiliar que mapeia os tipos de câncer e seus respectivos códigos.
   
-####Funções de Seleção e Ajuste:
+#### Funções de Seleção e Ajuste:
 - **Seleção de dados:** Filtragem dos casos de acordo com critérios específicos, como topografia, estado de residência (SP), confirmação microscópica, morfologia específica, e diagnósticos realizados até 2019.
 - **Ajustes para Kaplan-Meier:** Conversão das colunas de tempo de diagnóstico em meses, eliminação de casos inválidos e criação de variáveis binárias para eventos de óbito.
 
-####Geração das Curvas Kaplan-Meier:
+#### Geração das Curvas Kaplan-Meier:
 Visualização por tipo de câncer, com indicadores como mediana de sobrevivência, número de amostras e período analisado.
 
-####Visualização das Curvas:
+#### Visualização das Curvas:
 Salvamento das curvas em arquivos PNG e exibição conjunta em um painel de imagens para facilitar a análise comparativa.
 
 ## Artigos de Referência:
