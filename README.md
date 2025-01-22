@@ -10,13 +10,17 @@ O projeto é composto por dois notebooks principais e um outro notebook de curva
 ### [1. Predição da Sobrevida em Pacientes com Câncer Colorretal - COX](https://colab.research.google.com/github/JoaoVitorSesma/Predicao-da-Sobrevida-em-Pacientes-com-Cancer-Colorretal-IC/blob/main/Predi%C3%A7%C3%A3o_da_Sobrevida_em_Pacientes_com_C%C3%A2ncer_Colorretal_COX.ipynb)
 Este notebook realiza a aplicação do modelo de COX diretamente no Banco de Dados da FOSP, para poder fazer a predição sobrevivência. Sendo assim, o código foi estruturado da seguinte maneira:
 
-#### Importação e Pré-Processamento dos Dados: Preparação dos dados, incluindo limpeza e codificação de variáveis categóricas.
+#### Importação e Pré-Processamento dos Dados: 
+Preparação dos dados, incluindo limpeza e codificação de variáveis categóricas.
 
-#### Ajuste do Modelo: Configuração e ajuste do modelo de Cox, seguido pela seleção de variáveis significativas com base nos p-values.
+#### Ajuste do Modelo: 
+Configuração e ajuste do modelo de Cox, seguido pela seleção de variáveis significativas com base nos p-values.
 
-#### Métricas de Avaliação: Cálculo de métricas de desempenho, como C-Index, MSE, RMSE, MAE, MAPE e R² para avaliar a precisão do modelo.
+#### Métricas de Avaliação: 
+Cálculo de métricas de desempenho, como C-Index, MSE, RMSE, MAE, MAPE e R² para avaliar a precisão do modelo.
 
-#### Predição de Sobrevida: Estimativa dos tempos de sobrevida esperados, com comparações entre o modelo original e o modelo ajustado com variáveis significativas.
+#### Predição de Sobrevida: 
+Estimativa dos tempos de sobrevida esperados, com comparações entre o modelo original e o modelo ajustado com variáveis significativas.
 
 #### Visualização com Gráficos:
 - Comparação entre valores reais e previsões.
